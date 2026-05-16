@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Social Content Dashboard</title>
+        <title>Content Operations Dashboard - Live</title>
         <meta
           name="description"
           content="Mini Next.js Pages Router dashboard using CSS Modules, Motion, Radix UI, Base UI, Next.js middleware, and Recharts."
