@@ -1,0 +1,29 @@
+{
+  "name": "content-operations-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings=0"
+  },
+  "dependencies": {
+    "@base-ui/react": "latest",
+    "@radix-ui/react-tabs": "latest",
+    "motion": "latest",
+    "next": "^15.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "^15.0.0",
+    "typescript": "latest"
+  }
+}
