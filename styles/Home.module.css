@@ -41,6 +41,20 @@
   line-height: 1.7;
 }
 
+.heroAction {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 22px;
+  padding: 0 18px;
+  border: 1px solid #214a50;
+  border-radius: 6px;
+  background: var(--teal);
+  color: #fff;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .summaryGrid {
   display: grid;
   gap: 12px;

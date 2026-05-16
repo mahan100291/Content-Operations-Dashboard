@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 import * as Tabs from '@radix-ui/react-tabs';
 import { Popover } from '@base-ui/react/popover';
 import { motion } from 'motion/react';
@@ -30,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Content Operations Dashboard</title>
+        <title>Social Content Dashboard</title>
         <meta
           name="description"
           content="Mini Next.js Pages Router dashboard using CSS Modules, Motion, Radix UI, Base UI, Next.js middleware, and Recharts."
@@ -52,6 +53,9 @@ export default function Home() {
               A small production-shaped dashboard for the stack: Pages Router today, native
               middleware routing, accessible primitives, CSS Modules, Motion, and Recharts.
             </p>
+            <Link className={styles.heroAction} href="/register">
+              Register an individual
+            </Link>
           </motion.div>
 
           <motion.div
